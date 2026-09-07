@@ -1,0 +1,308 @@
+[
+  {
+    "id": "map_beginner_meadow",
+    "name": "初心草原",
+    "required_level": 0,
+    "recommended_level_range": {
+      "min": 0,
+      "max": 1
+    },
+    "theme_element_id": "element_wood",
+    "description": "0级区域，草原狼王统领此地。",
+    "connected_map_ids": [
+      "map_greenwood"
+    ],
+    "monster_ids": [
+      "monster_beginner_meadow_1",
+      "monster_beginner_meadow_2",
+      "monster_beginner_meadow_lord"
+    ],
+    "lord_monster_id": "monster_beginner_meadow_lord",
+    "drop_item_ids": [
+      "item_katana_0",
+      "item_wand_0",
+      "item_bayonet_0",
+      "item_longbow_0",
+      "item_warhammer_0"
+    ]
+  },
+  {
+    "id": "map_greenwood",
+    "name": "翠叶林地",
+    "required_level": 1,
+    "recommended_level_range": {
+      "min": 1,
+      "max": 2
+    },
+    "theme_element_id": "element_wood",
+    "description": "1级区域，古树守卫统领此地。",
+    "connected_map_ids": [
+      "map_beginner_meadow",
+      "map_copper_mine"
+    ],
+    "monster_ids": [
+      "monster_greenwood_1",
+      "monster_greenwood_2",
+      "monster_greenwood_lord"
+    ],
+    "lord_monster_id": "monster_greenwood_lord",
+    "drop_item_ids": [
+      "item_katana_1",
+      "item_wand_1",
+      "item_bayonet_1",
+      "item_longbow_1",
+      "item_warhammer_1"
+    ]
+  },
+  {
+    "id": "map_copper_mine",
+    "name": "赤铜矿洞",
+    "required_level": 2,
+    "recommended_level_range": {
+      "min": 2,
+      "max": 3
+    },
+    "theme_element_id": "element_metal",
+    "description": "2级区域，赤铜魔像统领此地。",
+    "connected_map_ids": [
+      "map_greenwood",
+      "map_stream_marsh"
+    ],
+    "monster_ids": [
+      "monster_copper_mine_1",
+      "monster_copper_mine_2",
+      "monster_copper_mine_lord"
+    ],
+    "lord_monster_id": "monster_copper_mine_lord",
+    "drop_item_ids": [
+      "item_katana_2",
+      "item_wand_2",
+      "item_bayonet_2",
+      "item_longbow_2",
+      "item_warhammer_2"
+    ]
+  },
+  {
+    "id": "map_stream_marsh",
+    "name": "溪流湿地",
+    "required_level": 3,
+    "recommended_level_range": {
+      "min": 3,
+      "max": 4
+    },
+    "theme_element_id": "element_water",
+    "description": "3级区域，沼泽蛇王统领此地。",
+    "connected_map_ids": [
+      "map_copper_mine",
+      "map_ember_valley"
+    ],
+    "monster_ids": [
+      "monster_stream_marsh_1",
+      "monster_stream_marsh_2",
+      "monster_stream_marsh_lord"
+    ],
+    "lord_monster_id": "monster_stream_marsh_lord",
+    "drop_item_ids": [
+      "item_katana_3",
+      "item_wand_3",
+      "item_bayonet_3",
+      "item_longbow_3",
+      "item_warhammer_3"
+    ]
+  },
+  {
+    "id": "map_ember_valley",
+    "name": "余烬山谷",
+    "required_level": 4,
+    "recommended_level_range": {
+      "min": 4,
+      "max": 5
+    },
+    "theme_element_id": "element_fire",
+    "description": "4级区域，熔岩兽王统领此地。",
+    "connected_map_ids": [
+      "map_stream_marsh",
+      "map_dark_forest"
+    ],
+    "monster_ids": [
+      "monster_ember_valley_1",
+      "monster_ember_valley_2",
+      "monster_ember_valley_lord"
+    ],
+    "lord_monster_id": "monster_ember_valley_lord",
+    "drop_item_ids": [
+      "item_flame_sword",
+      "item_wand_4",
+      "item_bayonet_4",
+      "item_longbow_4",
+      "item_warhammer_4"
+    ]
+  },
+  {
+    "id": "map_dark_forest",
+    "name": "黑暗森林",
+    "required_level": 5,
+    "recommended_level_range": {
+      "min": 5,
+      "max": 6
+    },
+    "theme_element_id": "element_wood",
+    "description": "5级区域，暗林蛛后统领此地。",
+    "connected_map_ids": [
+      "map_ember_valley",
+      "map_sand_ruins"
+    ],
+    "monster_ids": [
+      "monster_dark_forest_1",
+      "monster_dark_forest_2",
+      "monster_dark_forest_lord"
+    ],
+    "lord_monster_id": "monster_dark_forest_lord",
+    "drop_item_ids": [
+      "item_katana_5",
+      "item_wand_5",
+      "item_bayonet_5",
+      "item_longbow_5",
+      "item_warhammer_5"
+    ]
+  },
+  {
+    "id": "map_sand_ruins",
+    "name": "流沙遗迹",
+    "required_level": 6,
+    "recommended_level_range": {
+      "min": 6,
+      "max": 7
+    },
+    "theme_element_id": "element_earth",
+    "description": "6级区域，流沙巨蝎统领此地。",
+    "connected_map_ids": [
+      "map_dark_forest",
+      "map_flame_canyon"
+    ],
+    "monster_ids": [
+      "monster_sand_ruins_1",
+      "monster_sand_ruins_2",
+      "monster_sand_ruins_lord"
+    ],
+    "lord_monster_id": "monster_sand_ruins_lord",
+    "drop_item_ids": [
+      "item_katana_6",
+      "item_wand_6",
+      "item_bayonet_6",
+      "item_longbow_6",
+      "item_warhammer_6"
+    ]
+  },
+  {
+    "id": "map_flame_canyon",
+    "name": "烈焰峡谷",
+    "required_level": 7,
+    "recommended_level_range": {
+      "min": 7,
+      "max": 8
+    },
+    "theme_element_id": "element_fire",
+    "description": "7级区域，烈焰暴君统领此地。",
+    "connected_map_ids": [
+      "map_sand_ruins",
+      "map_frost_dragon_snowfield"
+    ],
+    "monster_ids": [
+      "monster_flame_canyon_1",
+      "monster_flame_canyon_2",
+      "monster_flame_canyon_lord"
+    ],
+    "lord_monster_id": "monster_flame_canyon_lord",
+    "drop_item_ids": [
+      "item_katana_7",
+      "item_wand_7",
+      "item_bayonet_7",
+      "item_longbow_7",
+      "item_warhammer_7"
+    ]
+  },
+  {
+    "id": "map_frost_dragon_snowfield",
+    "name": "霜龙雪原",
+    "required_level": 8,
+    "recommended_level_range": {
+      "min": 8,
+      "max": 9
+    },
+    "theme_element_id": "element_water",
+    "description": "8级区域，冰霜巨龙统领此地。",
+    "connected_map_ids": [
+      "map_flame_canyon",
+      "map_thunder_peak"
+    ],
+    "monster_ids": [
+      "monster_frost_dragon_snowfield_1",
+      "monster_frost_dragon_snowfield_2",
+      "monster_frost_dragon"
+    ],
+    "lord_monster_id": "monster_frost_dragon",
+    "drop_item_ids": [
+      "item_katana_8",
+      "item_wand_8",
+      "item_bayonet_8",
+      "item_longbow_8",
+      "item_warhammer_8"
+    ]
+  },
+  {
+    "id": "map_thunder_peak",
+    "name": "雷鸣峰顶",
+    "required_level": 9,
+    "recommended_level_range": {
+      "min": 9,
+      "max": 10
+    },
+    "theme_element_id": "element_metal",
+    "description": "9级区域，雷霆狮鹫统领此地。",
+    "connected_map_ids": [
+      "map_frost_dragon_snowfield",
+      "map_five_elements_sanctum"
+    ],
+    "monster_ids": [
+      "monster_thunder_peak_1",
+      "monster_thunder_peak_2",
+      "monster_thunder_peak_lord"
+    ],
+    "lord_monster_id": "monster_thunder_peak_lord",
+    "drop_item_ids": [
+      "item_katana_9",
+      "item_wand_9",
+      "item_bayonet_9",
+      "item_longbow_9",
+      "item_warhammer_9"
+    ]
+  },
+  {
+    "id": "map_five_elements_sanctum",
+    "name": "五行圣域",
+    "required_level": 10,
+    "recommended_level_range": {
+      "min": 10,
+      "max": 10
+    },
+    "theme_element_id": "element_earth",
+    "description": "10级区域，五行麒麟统领此地。",
+    "connected_map_ids": [
+      "map_thunder_peak"
+    ],
+    "monster_ids": [
+      "monster_five_elements_sanctum_1",
+      "monster_five_elements_sanctum_2",
+      "monster_five_elements_sanctum_lord"
+    ],
+    "lord_monster_id": "monster_five_elements_sanctum_lord",
+    "drop_item_ids": [
+      "item_katana_10",
+      "item_wand_10",
+      "item_bayonet_10",
+      "item_longbow_10",
+      "item_warhammer_10"
+    ]
+  }
+]

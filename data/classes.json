@@ -1,0 +1,202 @@
+[
+  {
+    "id": "class_swordsman",
+    "name": "剑士",
+    "weapon_type_id": "weapon_type_katana",
+    "element_affinities": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.2
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.95
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.9
+      }
+    ],
+    "skill_ids": [
+      "skill_swordsman_0",
+      "skill_swordsman_1",
+      "skill_swordsman_2",
+      "skill_swordsman_3",
+      "skill_swordsman_4",
+      "skill_swordsman_5",
+      "skill_swordsman_6",
+      "skill_swordsman_7",
+      "skill_swordsman_8",
+      "skill_swordsman_9",
+      "skill_swordsman_10"
+    ]
+  },
+  {
+    "id": "class_mage",
+    "name": "法师",
+    "weapon_type_id": "weapon_type_wand",
+    "element_affinities": [
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.2
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.95
+      },
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.9
+      }
+    ],
+    "skill_ids": [
+      "skill_mage_0",
+      "skill_mage_1",
+      "skill_mage_2",
+      "skill_mage_3",
+      "skill_mage_4",
+      "skill_mage_5",
+      "skill_mage_6",
+      "skill_mage_7",
+      "skill_mage_8",
+      "skill_mage_9",
+      "skill_mage_10"
+    ]
+  },
+  {
+    "id": "class_assassin",
+    "name": "刺客",
+    "weapon_type_id": "weapon_type_bayonet",
+    "element_affinities": [
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.2
+      },
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.95
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.9
+      }
+    ],
+    "skill_ids": [
+      "skill_assassin_0",
+      "skill_assassin_1",
+      "skill_assassin_2",
+      "skill_assassin_3",
+      "skill_assassin_4",
+      "skill_assassin_5",
+      "skill_assassin_6",
+      "skill_assassin_7",
+      "skill_assassin_8",
+      "skill_assassin_9",
+      "skill_assassin_10"
+    ]
+  },
+  {
+    "id": "class_ranger",
+    "name": "游侠",
+    "weapon_type_id": "weapon_type_longbow",
+    "element_affinities": [
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.2
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.95
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.9
+      }
+    ],
+    "skill_ids": [
+      "skill_ranger_0",
+      "skill_ranger_1",
+      "skill_ranger_2",
+      "skill_ranger_3",
+      "skill_ranger_4",
+      "skill_ranger_5",
+      "skill_ranger_6",
+      "skill_ranger_7",
+      "skill_ranger_8",
+      "skill_ranger_9",
+      "skill_ranger_10"
+    ]
+  },
+  {
+    "id": "class_guardian",
+    "name": "守卫",
+    "weapon_type_id": "weapon_type_warhammer",
+    "element_affinities": [
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.2
+      },
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.95
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.9
+      }
+    ],
+    "skill_ids": [
+      "skill_guardian_0",
+      "skill_guardian_1",
+      "skill_guardian_2",
+      "skill_guardian_3",
+      "skill_guardian_4",
+      "skill_guardian_5",
+      "skill_guardian_6",
+      "skill_guardian_7",
+      "skill_guardian_8",
+      "skill_guardian_9",
+      "skill_guardian_10"
+    ]
+  }
+]

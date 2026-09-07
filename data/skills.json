@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "skill_swordsman_0",
+    "name": "金灵斩·0阶",
+    "class_id": "class_swordsman",
+    "required_level": 0,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [],
+    "mana_cost": 2,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1,
+      "flat_damage": 0,
+      "target_count": 1
+    },
+    "description": "剑士0级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_0",
+    "name": "火灵术·0阶",
+    "class_id": "class_mage",
+    "required_level": 0,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [],
+    "mana_cost": 2,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1,
+      "flat_damage": 0,
+      "target_count": 1
+    },
+    "description": "法师0级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_0",
+    "name": "水灵刺·0阶",
+    "class_id": "class_assassin",
+    "required_level": 0,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [],
+    "mana_cost": 2,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1,
+      "flat_damage": 0,
+      "target_count": 1
+    },
+    "description": "刺客0级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_0",
+    "name": "木灵箭·0阶",
+    "class_id": "class_ranger",
+    "required_level": 0,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [],
+    "mana_cost": 2,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1,
+      "flat_damage": 0,
+      "target_count": 1
+    },
+    "description": "游侠0级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_0",
+    "name": "土灵击·0阶",
+    "class_id": "class_guardian",
+    "required_level": 0,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [],
+    "mana_cost": 2,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1,
+      "flat_damage": 0,
+      "target_count": 1
+    },
+    "description": "守卫0级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_1",
+    "name": "金灵斩·1阶",
+    "class_id": "class_swordsman",
+    "required_level": 1,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_0"
+    ],
+    "mana_cost": 4,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.15,
+      "flat_damage": 3,
+      "target_count": 1
+    },
+    "description": "剑士1级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_1",
+    "name": "火灵术·1阶",
+    "class_id": "class_mage",
+    "required_level": 1,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_0"
+    ],
+    "mana_cost": 4,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.15,
+      "flat_damage": 3,
+      "target_count": 1
+    },
+    "description": "法师1级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_1",
+    "name": "水灵刺·1阶",
+    "class_id": "class_assassin",
+    "required_level": 1,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_0"
+    ],
+    "mana_cost": 4,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.15,
+      "flat_damage": 3,
+      "target_count": 1
+    },
+    "description": "刺客1级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_1",
+    "name": "木灵箭·1阶",
+    "class_id": "class_ranger",
+    "required_level": 1,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_0"
+    ],
+    "mana_cost": 4,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.15,
+      "flat_damage": 3,
+      "target_count": 1
+    },
+    "description": "游侠1级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_1",
+    "name": "土灵击·1阶",
+    "class_id": "class_guardian",
+    "required_level": 1,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_0"
+    ],
+    "mana_cost": 4,
+    "cooldown_seconds": 2,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.15,
+      "flat_damage": 3,
+      "target_count": 1
+    },
+    "description": "守卫1级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_2",
+    "name": "金灵斩·2阶",
+    "class_id": "class_swordsman",
+    "required_level": 2,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_1"
+    ],
+    "mana_cost": 6,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.3,
+      "flat_damage": 6,
+      "target_count": 1
+    },
+    "description": "剑士2级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_2",
+    "name": "火灵术·2阶",
+    "class_id": "class_mage",
+    "required_level": 2,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_1"
+    ],
+    "mana_cost": 6,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.3,
+      "flat_damage": 6,
+      "target_count": 1
+    },
+    "description": "法师2级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_2",
+    "name": "水灵刺·2阶",
+    "class_id": "class_assassin",
+    "required_level": 2,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_1"
+    ],
+    "mana_cost": 6,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.3,
+      "flat_damage": 6,
+      "target_count": 1
+    },
+    "description": "刺客2级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_2",
+    "name": "木灵箭·2阶",
+    "class_id": "class_ranger",
+    "required_level": 2,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_1"
+    ],
+    "mana_cost": 6,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.3,
+      "flat_damage": 6,
+      "target_count": 1
+    },
+    "description": "游侠2级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_2",
+    "name": "土灵击·2阶",
+    "class_id": "class_guardian",
+    "required_level": 2,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_1"
+    ],
+    "mana_cost": 6,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.3,
+      "flat_damage": 6,
+      "target_count": 1
+    },
+    "description": "守卫2级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_3",
+    "name": "金灵斩·3阶",
+    "class_id": "class_swordsman",
+    "required_level": 3,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_2"
+    ],
+    "mana_cost": 8,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.45,
+      "flat_damage": 9,
+      "target_count": 1
+    },
+    "description": "剑士3级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_3",
+    "name": "火灵术·3阶",
+    "class_id": "class_mage",
+    "required_level": 3,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_2"
+    ],
+    "mana_cost": 8,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.45,
+      "flat_damage": 9,
+      "target_count": 1
+    },
+    "description": "法师3级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_3",
+    "name": "水灵刺·3阶",
+    "class_id": "class_assassin",
+    "required_level": 3,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_2"
+    ],
+    "mana_cost": 8,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.45,
+      "flat_damage": 9,
+      "target_count": 1
+    },
+    "description": "刺客3级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_3",
+    "name": "木灵箭·3阶",
+    "class_id": "class_ranger",
+    "required_level": 3,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_2"
+    ],
+    "mana_cost": 8,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.45,
+      "flat_damage": 9,
+      "target_count": 1
+    },
+    "description": "游侠3级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_3",
+    "name": "土灵击·3阶",
+    "class_id": "class_guardian",
+    "required_level": 3,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_2"
+    ],
+    "mana_cost": 8,
+    "cooldown_seconds": 3,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.45,
+      "flat_damage": 9,
+      "target_count": 1
+    },
+    "description": "守卫3级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_4",
+    "name": "金灵斩·4阶",
+    "class_id": "class_swordsman",
+    "required_level": 4,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_3"
+    ],
+    "mana_cost": 10,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.6,
+      "flat_damage": 12,
+      "target_count": 1
+    },
+    "description": "剑士4级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_4",
+    "name": "火灵术·4阶",
+    "class_id": "class_mage",
+    "required_level": 4,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_3"
+    ],
+    "mana_cost": 10,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.6,
+      "flat_damage": 12,
+      "target_count": 1
+    },
+    "description": "法师4级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_4",
+    "name": "水灵刺·4阶",
+    "class_id": "class_assassin",
+    "required_level": 4,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_3"
+    ],
+    "mana_cost": 10,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.6,
+      "flat_damage": 12,
+      "target_count": 1
+    },
+    "description": "刺客4级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_4",
+    "name": "木灵箭·4阶",
+    "class_id": "class_ranger",
+    "required_level": 4,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_3"
+    ],
+    "mana_cost": 10,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.6,
+      "flat_damage": 12,
+      "target_count": 1
+    },
+    "description": "游侠4级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_4",
+    "name": "土灵击·4阶",
+    "class_id": "class_guardian",
+    "required_level": 4,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_3"
+    ],
+    "mana_cost": 10,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.6,
+      "flat_damage": 12,
+      "target_count": 1
+    },
+    "description": "守卫4级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_5",
+    "name": "金灵斩·5阶",
+    "class_id": "class_swordsman",
+    "required_level": 5,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_4"
+    ],
+    "mana_cost": 12,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.75,
+      "flat_damage": 15,
+      "target_count": 1
+    },
+    "description": "剑士5级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_5",
+    "name": "火灵术·5阶",
+    "class_id": "class_mage",
+    "required_level": 5,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_4"
+    ],
+    "mana_cost": 12,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.75,
+      "flat_damage": 15,
+      "target_count": 1
+    },
+    "description": "法师5级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_5",
+    "name": "水灵刺·5阶",
+    "class_id": "class_assassin",
+    "required_level": 5,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_4"
+    ],
+    "mana_cost": 12,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.75,
+      "flat_damage": 15,
+      "target_count": 1
+    },
+    "description": "刺客5级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_5",
+    "name": "木灵箭·5阶",
+    "class_id": "class_ranger",
+    "required_level": 5,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_4"
+    ],
+    "mana_cost": 12,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.75,
+      "flat_damage": 15,
+      "target_count": 1
+    },
+    "description": "游侠5级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_5",
+    "name": "土灵击·5阶",
+    "class_id": "class_guardian",
+    "required_level": 5,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_4"
+    ],
+    "mana_cost": 12,
+    "cooldown_seconds": 4,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.75,
+      "flat_damage": 15,
+      "target_count": 1
+    },
+    "description": "守卫5级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_6",
+    "name": "金灵斩·6阶",
+    "class_id": "class_swordsman",
+    "required_level": 6,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_5"
+    ],
+    "mana_cost": 14,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.9,
+      "flat_damage": 18,
+      "target_count": 1
+    },
+    "description": "剑士6级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_6",
+    "name": "火灵术·6阶",
+    "class_id": "class_mage",
+    "required_level": 6,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_5"
+    ],
+    "mana_cost": 14,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.9,
+      "flat_damage": 18,
+      "target_count": 1
+    },
+    "description": "法师6级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_6",
+    "name": "水灵刺·6阶",
+    "class_id": "class_assassin",
+    "required_level": 6,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_5"
+    ],
+    "mana_cost": 14,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.9,
+      "flat_damage": 18,
+      "target_count": 1
+    },
+    "description": "刺客6级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_6",
+    "name": "木灵箭·6阶",
+    "class_id": "class_ranger",
+    "required_level": 6,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_5"
+    ],
+    "mana_cost": 14,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.9,
+      "flat_damage": 18,
+      "target_count": 1
+    },
+    "description": "游侠6级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_6",
+    "name": "土灵击·6阶",
+    "class_id": "class_guardian",
+    "required_level": 6,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_5"
+    ],
+    "mana_cost": 14,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 1.9,
+      "flat_damage": 18,
+      "target_count": 1
+    },
+    "description": "守卫6级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_7",
+    "name": "金灵斩·7阶",
+    "class_id": "class_swordsman",
+    "required_level": 7,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_6"
+    ],
+    "mana_cost": 16,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.05,
+      "flat_damage": 21,
+      "target_count": 3
+    },
+    "description": "剑士7级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_7",
+    "name": "火灵术·7阶",
+    "class_id": "class_mage",
+    "required_level": 7,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_6"
+    ],
+    "mana_cost": 16,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.05,
+      "flat_damage": 21,
+      "target_count": 3
+    },
+    "description": "法师7级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_7",
+    "name": "水灵刺·7阶",
+    "class_id": "class_assassin",
+    "required_level": 7,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_6"
+    ],
+    "mana_cost": 16,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.05,
+      "flat_damage": 21,
+      "target_count": 3
+    },
+    "description": "刺客7级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_7",
+    "name": "木灵箭·7阶",
+    "class_id": "class_ranger",
+    "required_level": 7,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_6"
+    ],
+    "mana_cost": 16,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.05,
+      "flat_damage": 21,
+      "target_count": 3
+    },
+    "description": "游侠7级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_7",
+    "name": "土灵击·7阶",
+    "class_id": "class_guardian",
+    "required_level": 7,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_6"
+    ],
+    "mana_cost": 16,
+    "cooldown_seconds": 5,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.05,
+      "flat_damage": 21,
+      "target_count": 3
+    },
+    "description": "守卫7级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_8",
+    "name": "金灵斩·8阶",
+    "class_id": "class_swordsman",
+    "required_level": 8,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_7"
+    ],
+    "mana_cost": 18,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.2,
+      "flat_damage": 24,
+      "target_count": 3
+    },
+    "description": "剑士8级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_8",
+    "name": "火灵术·8阶",
+    "class_id": "class_mage",
+    "required_level": 8,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_7"
+    ],
+    "mana_cost": 18,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.2,
+      "flat_damage": 24,
+      "target_count": 3
+    },
+    "description": "法师8级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_8",
+    "name": "水灵刺·8阶",
+    "class_id": "class_assassin",
+    "required_level": 8,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_7"
+    ],
+    "mana_cost": 18,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.2,
+      "flat_damage": 24,
+      "target_count": 3
+    },
+    "description": "刺客8级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_8",
+    "name": "木灵箭·8阶",
+    "class_id": "class_ranger",
+    "required_level": 8,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_7"
+    ],
+    "mana_cost": 18,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.2,
+      "flat_damage": 24,
+      "target_count": 3
+    },
+    "description": "游侠8级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_8",
+    "name": "土灵击·8阶",
+    "class_id": "class_guardian",
+    "required_level": 8,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_7"
+    ],
+    "mana_cost": 18,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.2,
+      "flat_damage": 24,
+      "target_count": 3
+    },
+    "description": "守卫8级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_9",
+    "name": "金灵斩·9阶",
+    "class_id": "class_swordsman",
+    "required_level": 9,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_8"
+    ],
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.35,
+      "flat_damage": 27,
+      "target_count": 3
+    },
+    "description": "剑士9级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_9",
+    "name": "火灵术·9阶",
+    "class_id": "class_mage",
+    "required_level": 9,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_8"
+    ],
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.35,
+      "flat_damage": 27,
+      "target_count": 3
+    },
+    "description": "法师9级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_9",
+    "name": "水灵刺·9阶",
+    "class_id": "class_assassin",
+    "required_level": 9,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_8"
+    ],
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.35,
+      "flat_damage": 27,
+      "target_count": 3
+    },
+    "description": "刺客9级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_9",
+    "name": "木灵箭·9阶",
+    "class_id": "class_ranger",
+    "required_level": 9,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_8"
+    ],
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.35,
+      "flat_damage": 27,
+      "target_count": 3
+    },
+    "description": "游侠9级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_9",
+    "name": "土灵击·9阶",
+    "class_id": "class_guardian",
+    "required_level": 9,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_8"
+    ],
+    "mana_cost": 20,
+    "cooldown_seconds": 6,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.35,
+      "flat_damage": 27,
+      "target_count": 3
+    },
+    "description": "守卫9级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_swordsman_10",
+    "name": "金灵斩·10阶",
+    "class_id": "class_swordsman",
+    "required_level": 10,
+    "required_weapon_type_id": "weapon_type_katana",
+    "element_id": "element_metal",
+    "prerequisite_skill_ids": [
+      "skill_swordsman_9"
+    ],
+    "mana_cost": 22,
+    "cooldown_seconds": 7,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.5,
+      "flat_damage": 30,
+      "target_count": 3
+    },
+    "description": "剑士10级技能，造成金属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_mage_10",
+    "name": "火灵术·10阶",
+    "class_id": "class_mage",
+    "required_level": 10,
+    "required_weapon_type_id": "weapon_type_wand",
+    "element_id": "element_fire",
+    "prerequisite_skill_ids": [
+      "skill_mage_9"
+    ],
+    "mana_cost": 22,
+    "cooldown_seconds": 7,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.5,
+      "flat_damage": 30,
+      "target_count": 3
+    },
+    "description": "法师10级技能，造成火属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_assassin_10",
+    "name": "水灵刺·10阶",
+    "class_id": "class_assassin",
+    "required_level": 10,
+    "required_weapon_type_id": "weapon_type_bayonet",
+    "element_id": "element_water",
+    "prerequisite_skill_ids": [
+      "skill_assassin_9"
+    ],
+    "mana_cost": 22,
+    "cooldown_seconds": 7,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.5,
+      "flat_damage": 30,
+      "target_count": 3
+    },
+    "description": "刺客10级技能，造成水属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_ranger_10",
+    "name": "木灵箭·10阶",
+    "class_id": "class_ranger",
+    "required_level": 10,
+    "required_weapon_type_id": "weapon_type_longbow",
+    "element_id": "element_wood",
+    "prerequisite_skill_ids": [
+      "skill_ranger_9"
+    ],
+    "mana_cost": 22,
+    "cooldown_seconds": 7,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.5,
+      "flat_damage": 30,
+      "target_count": 3
+    },
+    "description": "游侠10级技能，造成木属性伤害；7级起可命中最多3个目标。"
+  },
+  {
+    "id": "skill_guardian_10",
+    "name": "土灵击·10阶",
+    "class_id": "class_guardian",
+    "required_level": 10,
+    "required_weapon_type_id": "weapon_type_warhammer",
+    "element_id": "element_earth",
+    "prerequisite_skill_ids": [
+      "skill_guardian_9"
+    ],
+    "mana_cost": 22,
+    "cooldown_seconds": 7,
+    "effect": {
+      "type": "damage",
+      "attack_multiplier": 2.5,
+      "flat_damage": 30,
+      "target_count": 3
+    },
+    "description": "守卫10级技能，造成土属性伤害；7级起可命中最多3个目标。"
+  }
+]

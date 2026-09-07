@@ -1,0 +1,32 @@
+[
+  {
+    "id": "element_metal",
+    "name": "金",
+    "overcomes_element_id": "element_wood",
+    "overcome_by_element_id": "element_fire"
+  },
+  {
+    "id": "element_wood",
+    "name": "木",
+    "overcomes_element_id": "element_earth",
+    "overcome_by_element_id": "element_metal"
+  },
+  {
+    "id": "element_water",
+    "name": "水",
+    "overcomes_element_id": "element_fire",
+    "overcome_by_element_id": "element_earth"
+  },
+  {
+    "id": "element_fire",
+    "name": "火",
+    "overcomes_element_id": "element_metal",
+    "overcome_by_element_id": "element_water"
+  },
+  {
+    "id": "element_earth",
+    "name": "土",
+    "overcomes_element_id": "element_water",
+    "overcome_by_element_id": "element_wood"
+  }
+]

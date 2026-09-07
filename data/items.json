@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "item_katana_0",
+    "name": "金灵太刀·0阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 0,
+    "element_id": "element_metal",
+    "rarity": "common",
+    "attack": 10,
+    "source_monster_ids": [
+      "monster_beginner_meadow_1",
+      "monster_beginner_meadow_lord"
+    ],
+    "source_map_ids": [
+      "map_beginner_meadow"
+    ]
+  },
+  {
+    "id": "item_wand_0",
+    "name": "木灵魔杖·0阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 0,
+    "element_id": "element_wood",
+    "rarity": "common",
+    "attack": 10,
+    "source_monster_ids": [
+      "monster_beginner_meadow_1",
+      "monster_beginner_meadow_lord"
+    ],
+    "source_map_ids": [
+      "map_beginner_meadow"
+    ]
+  },
+  {
+    "id": "item_bayonet_0",
+    "name": "水灵刺刀·0阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 0,
+    "element_id": "element_water",
+    "rarity": "common",
+    "attack": 10,
+    "source_monster_ids": [
+      "monster_beginner_meadow_2",
+      "monster_beginner_meadow_lord"
+    ],
+    "source_map_ids": [
+      "map_beginner_meadow"
+    ]
+  },
+  {
+    "id": "item_longbow_0",
+    "name": "火灵长弓·0阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 0,
+    "element_id": "element_fire",
+    "rarity": "common",
+    "attack": 10,
+    "source_monster_ids": [
+      "monster_beginner_meadow_2",
+      "monster_beginner_meadow_lord"
+    ],
+    "source_map_ids": [
+      "map_beginner_meadow"
+    ]
+  },
+  {
+    "id": "item_warhammer_0",
+    "name": "土灵战锤·0阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 0,
+    "element_id": "element_earth",
+    "rarity": "common",
+    "attack": 10,
+    "source_monster_ids": [
+      "monster_beginner_meadow_lord"
+    ],
+    "source_map_ids": [
+      "map_beginner_meadow"
+    ]
+  },
+  {
+    "id": "item_katana_1",
+    "name": "木灵太刀·1阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 1,
+    "element_id": "element_wood",
+    "rarity": "common",
+    "attack": 17,
+    "source_monster_ids": [
+      "monster_greenwood_1",
+      "monster_greenwood_lord"
+    ],
+    "source_map_ids": [
+      "map_greenwood"
+    ]
+  },
+  {
+    "id": "item_wand_1",
+    "name": "水灵魔杖·1阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 1,
+    "element_id": "element_water",
+    "rarity": "common",
+    "attack": 17,
+    "source_monster_ids": [
+      "monster_greenwood_1",
+      "monster_greenwood_lord"
+    ],
+    "source_map_ids": [
+      "map_greenwood"
+    ]
+  },
+  {
+    "id": "item_bayonet_1",
+    "name": "火灵刺刀·1阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 1,
+    "element_id": "element_fire",
+    "rarity": "common",
+    "attack": 17,
+    "source_monster_ids": [
+      "monster_greenwood_2",
+      "monster_greenwood_lord"
+    ],
+    "source_map_ids": [
+      "map_greenwood"
+    ]
+  },
+  {
+    "id": "item_longbow_1",
+    "name": "土灵长弓·1阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 1,
+    "element_id": "element_earth",
+    "rarity": "common",
+    "attack": 17,
+    "source_monster_ids": [
+      "monster_greenwood_2",
+      "monster_greenwood_lord"
+    ],
+    "source_map_ids": [
+      "map_greenwood"
+    ]
+  },
+  {
+    "id": "item_warhammer_1",
+    "name": "金灵战锤·1阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 1,
+    "element_id": "element_metal",
+    "rarity": "common",
+    "attack": 17,
+    "source_monster_ids": [
+      "monster_greenwood_lord"
+    ],
+    "source_map_ids": [
+      "map_greenwood"
+    ]
+  },
+  {
+    "id": "item_katana_2",
+    "name": "水灵太刀·2阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 2,
+    "element_id": "element_water",
+    "rarity": "common",
+    "attack": 24,
+    "source_monster_ids": [
+      "monster_copper_mine_1",
+      "monster_copper_mine_lord"
+    ],
+    "source_map_ids": [
+      "map_copper_mine"
+    ]
+  },
+  {
+    "id": "item_wand_2",
+    "name": "火灵魔杖·2阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 2,
+    "element_id": "element_fire",
+    "rarity": "common",
+    "attack": 24,
+    "source_monster_ids": [
+      "monster_copper_mine_1",
+      "monster_copper_mine_lord"
+    ],
+    "source_map_ids": [
+      "map_copper_mine"
+    ]
+  },
+  {
+    "id": "item_bayonet_2",
+    "name": "土灵刺刀·2阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 2,
+    "element_id": "element_earth",
+    "rarity": "common",
+    "attack": 24,
+    "source_monster_ids": [
+      "monster_copper_mine_2",
+      "monster_copper_mine_lord"
+    ],
+    "source_map_ids": [
+      "map_copper_mine"
+    ]
+  },
+  {
+    "id": "item_longbow_2",
+    "name": "金灵长弓·2阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 2,
+    "element_id": "element_metal",
+    "rarity": "common",
+    "attack": 24,
+    "source_monster_ids": [
+      "monster_copper_mine_2",
+      "monster_copper_mine_lord"
+    ],
+    "source_map_ids": [
+      "map_copper_mine"
+    ]
+  },
+  {
+    "id": "item_warhammer_2",
+    "name": "木灵战锤·2阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 2,
+    "element_id": "element_wood",
+    "rarity": "common",
+    "attack": 24,
+    "source_monster_ids": [
+      "monster_copper_mine_lord"
+    ],
+    "source_map_ids": [
+      "map_copper_mine"
+    ]
+  },
+  {
+    "id": "item_katana_3",
+    "name": "火灵太刀·3阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 3,
+    "element_id": "element_fire",
+    "rarity": "rare",
+    "attack": 31,
+    "source_monster_ids": [
+      "monster_stream_marsh_1",
+      "monster_stream_marsh_lord"
+    ],
+    "source_map_ids": [
+      "map_stream_marsh"
+    ]
+  },
+  {
+    "id": "item_wand_3",
+    "name": "土灵魔杖·3阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 3,
+    "element_id": "element_earth",
+    "rarity": "rare",
+    "attack": 31,
+    "source_monster_ids": [
+      "monster_stream_marsh_1",
+      "monster_stream_marsh_lord"
+    ],
+    "source_map_ids": [
+      "map_stream_marsh"
+    ]
+  },
+  {
+    "id": "item_bayonet_3",
+    "name": "金灵刺刀·3阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 3,
+    "element_id": "element_metal",
+    "rarity": "rare",
+    "attack": 31,
+    "source_monster_ids": [
+      "monster_stream_marsh_2",
+      "monster_stream_marsh_lord"
+    ],
+    "source_map_ids": [
+      "map_stream_marsh"
+    ]
+  },
+  {
+    "id": "item_longbow_3",
+    "name": "木灵长弓·3阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 3,
+    "element_id": "element_wood",
+    "rarity": "rare",
+    "attack": 31,
+    "source_monster_ids": [
+      "monster_stream_marsh_2",
+      "monster_stream_marsh_lord"
+    ],
+    "source_map_ids": [
+      "map_stream_marsh"
+    ]
+  },
+  {
+    "id": "item_warhammer_3",
+    "name": "水灵战锤·3阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 3,
+    "element_id": "element_water",
+    "rarity": "rare",
+    "attack": 31,
+    "source_monster_ids": [
+      "monster_stream_marsh_lord"
+    ],
+    "source_map_ids": [
+      "map_stream_marsh"
+    ]
+  },
+  {
+    "id": "item_flame_sword",
+    "name": "火焰剑",
+    "aliases": [
+      "火焰太刀"
+    ],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 4,
+    "element_id": "element_fire",
+    "rarity": "rare",
+    "attack": 38,
+    "source_monster_ids": [
+      "monster_ember_valley_1",
+      "monster_ember_valley_lord"
+    ],
+    "source_map_ids": [
+      "map_ember_valley"
+    ]
+  },
+  {
+    "id": "item_wand_4",
+    "name": "金灵魔杖·4阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 4,
+    "element_id": "element_metal",
+    "rarity": "rare",
+    "attack": 38,
+    "source_monster_ids": [
+      "monster_ember_valley_1",
+      "monster_ember_valley_lord"
+    ],
+    "source_map_ids": [
+      "map_ember_valley"
+    ]
+  },
+  {
+    "id": "item_bayonet_4",
+    "name": "木灵刺刀·4阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 4,
+    "element_id": "element_wood",
+    "rarity": "rare",
+    "attack": 38,
+    "source_monster_ids": [
+      "monster_ember_valley_2",
+      "monster_ember_valley_lord"
+    ],
+    "source_map_ids": [
+      "map_ember_valley"
+    ]
+  },
+  {
+    "id": "item_longbow_4",
+    "name": "水灵长弓·4阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 4,
+    "element_id": "element_water",
+    "rarity": "rare",
+    "attack": 38,
+    "source_monster_ids": [
+      "monster_ember_valley_2",
+      "monster_ember_valley_lord"
+    ],
+    "source_map_ids": [
+      "map_ember_valley"
+    ]
+  },
+  {
+    "id": "item_warhammer_4",
+    "name": "火灵战锤·4阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 4,
+    "element_id": "element_fire",
+    "rarity": "rare",
+    "attack": 38,
+    "source_monster_ids": [
+      "monster_ember_valley_lord"
+    ],
+    "source_map_ids": [
+      "map_ember_valley"
+    ]
+  },
+  {
+    "id": "item_katana_5",
+    "name": "金灵太刀·5阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 5,
+    "element_id": "element_metal",
+    "rarity": "rare",
+    "attack": 45,
+    "source_monster_ids": [
+      "monster_dark_forest_1",
+      "monster_dark_forest_lord"
+    ],
+    "source_map_ids": [
+      "map_dark_forest"
+    ]
+  },
+  {
+    "id": "item_wand_5",
+    "name": "木灵魔杖·5阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 5,
+    "element_id": "element_wood",
+    "rarity": "rare",
+    "attack": 45,
+    "source_monster_ids": [
+      "monster_dark_forest_1",
+      "monster_dark_forest_lord"
+    ],
+    "source_map_ids": [
+      "map_dark_forest"
+    ]
+  },
+  {
+    "id": "item_bayonet_5",
+    "name": "水灵刺刀·5阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 5,
+    "element_id": "element_water",
+    "rarity": "rare",
+    "attack": 45,
+    "source_monster_ids": [
+      "monster_dark_forest_2",
+      "monster_dark_forest_lord"
+    ],
+    "source_map_ids": [
+      "map_dark_forest"
+    ]
+  },
+  {
+    "id": "item_longbow_5",
+    "name": "火灵长弓·5阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 5,
+    "element_id": "element_fire",
+    "rarity": "rare",
+    "attack": 45,
+    "source_monster_ids": [
+      "monster_dark_forest_2",
+      "monster_dark_forest_lord"
+    ],
+    "source_map_ids": [
+      "map_dark_forest"
+    ]
+  },
+  {
+    "id": "item_warhammer_5",
+    "name": "土灵战锤·5阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 5,
+    "element_id": "element_earth",
+    "rarity": "rare",
+    "attack": 45,
+    "source_monster_ids": [
+      "monster_dark_forest_lord"
+    ],
+    "source_map_ids": [
+      "map_dark_forest"
+    ]
+  },
+  {
+    "id": "item_katana_6",
+    "name": "木灵太刀·6阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 6,
+    "element_id": "element_wood",
+    "rarity": "rare",
+    "attack": 52,
+    "source_monster_ids": [
+      "monster_sand_ruins_1",
+      "monster_sand_ruins_lord"
+    ],
+    "source_map_ids": [
+      "map_sand_ruins"
+    ]
+  },
+  {
+    "id": "item_wand_6",
+    "name": "水灵魔杖·6阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 6,
+    "element_id": "element_water",
+    "rarity": "rare",
+    "attack": 52,
+    "source_monster_ids": [
+      "monster_sand_ruins_1",
+      "monster_sand_ruins_lord"
+    ],
+    "source_map_ids": [
+      "map_sand_ruins"
+    ]
+  },
+  {
+    "id": "item_bayonet_6",
+    "name": "火灵刺刀·6阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 6,
+    "element_id": "element_fire",
+    "rarity": "rare",
+    "attack": 52,
+    "source_monster_ids": [
+      "monster_sand_ruins_2",
+      "monster_sand_ruins_lord"
+    ],
+    "source_map_ids": [
+      "map_sand_ruins"
+    ]
+  },
+  {
+    "id": "item_longbow_6",
+    "name": "土灵长弓·6阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 6,
+    "element_id": "element_earth",
+    "rarity": "rare",
+    "attack": 52,
+    "source_monster_ids": [
+      "monster_sand_ruins_2",
+      "monster_sand_ruins_lord"
+    ],
+    "source_map_ids": [
+      "map_sand_ruins"
+    ]
+  },
+  {
+    "id": "item_warhammer_6",
+    "name": "金灵战锤·6阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 6,
+    "element_id": "element_metal",
+    "rarity": "rare",
+    "attack": 52,
+    "source_monster_ids": [
+      "monster_sand_ruins_lord"
+    ],
+    "source_map_ids": [
+      "map_sand_ruins"
+    ]
+  },
+  {
+    "id": "item_katana_7",
+    "name": "火灵太刀·7阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 7,
+    "element_id": "element_fire",
+    "rarity": "epic",
+    "attack": 59,
+    "source_monster_ids": [
+      "monster_flame_canyon_1",
+      "monster_flame_canyon_lord"
+    ],
+    "source_map_ids": [
+      "map_flame_canyon"
+    ]
+  },
+  {
+    "id": "item_wand_7",
+    "name": "火灵魔杖·7阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 7,
+    "element_id": "element_fire",
+    "rarity": "epic",
+    "attack": 59,
+    "source_monster_ids": [
+      "monster_flame_canyon_1",
+      "monster_flame_canyon_lord"
+    ],
+    "source_map_ids": [
+      "map_flame_canyon"
+    ]
+  },
+  {
+    "id": "item_bayonet_7",
+    "name": "土灵刺刀·7阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 7,
+    "element_id": "element_earth",
+    "rarity": "epic",
+    "attack": 59,
+    "source_monster_ids": [
+      "monster_flame_canyon_2",
+      "monster_flame_canyon_lord"
+    ],
+    "source_map_ids": [
+      "map_flame_canyon"
+    ]
+  },
+  {
+    "id": "item_longbow_7",
+    "name": "金灵长弓·7阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 7,
+    "element_id": "element_metal",
+    "rarity": "epic",
+    "attack": 59,
+    "source_monster_ids": [
+      "monster_flame_canyon_2",
+      "monster_flame_canyon_lord"
+    ],
+    "source_map_ids": [
+      "map_flame_canyon"
+    ]
+  },
+  {
+    "id": "item_warhammer_7",
+    "name": "木灵战锤·7阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 7,
+    "element_id": "element_wood",
+    "rarity": "epic",
+    "attack": 59,
+    "source_monster_ids": [
+      "monster_flame_canyon_lord"
+    ],
+    "source_map_ids": [
+      "map_flame_canyon"
+    ]
+  },
+  {
+    "id": "item_katana_8",
+    "name": "火灵太刀·8阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 8,
+    "element_id": "element_fire",
+    "rarity": "epic",
+    "attack": 66,
+    "source_monster_ids": [
+      "monster_frost_dragon_snowfield_1",
+      "monster_frost_dragon"
+    ],
+    "source_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "id": "item_wand_8",
+    "name": "土灵魔杖·8阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 8,
+    "element_id": "element_earth",
+    "rarity": "epic",
+    "attack": 66,
+    "source_monster_ids": [
+      "monster_frost_dragon_snowfield_1",
+      "monster_frost_dragon"
+    ],
+    "source_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "id": "item_bayonet_8",
+    "name": "金灵刺刀·8阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 8,
+    "element_id": "element_metal",
+    "rarity": "epic",
+    "attack": 66,
+    "source_monster_ids": [
+      "monster_frost_dragon_snowfield_2",
+      "monster_frost_dragon"
+    ],
+    "source_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "id": "item_longbow_8",
+    "name": "木灵长弓·8阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 8,
+    "element_id": "element_wood",
+    "rarity": "epic",
+    "attack": 66,
+    "source_monster_ids": [
+      "monster_frost_dragon_snowfield_2",
+      "monster_frost_dragon"
+    ],
+    "source_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "id": "item_warhammer_8",
+    "name": "水灵战锤·8阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 8,
+    "element_id": "element_water",
+    "rarity": "epic",
+    "attack": 66,
+    "source_monster_ids": [
+      "monster_frost_dragon"
+    ],
+    "source_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "id": "item_katana_9",
+    "name": "土灵太刀·9阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 9,
+    "element_id": "element_earth",
+    "rarity": "epic",
+    "attack": 73,
+    "source_monster_ids": [
+      "monster_thunder_peak_1",
+      "monster_thunder_peak_lord"
+    ],
+    "source_map_ids": [
+      "map_thunder_peak"
+    ]
+  },
+  {
+    "id": "item_wand_9",
+    "name": "金灵魔杖·9阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 9,
+    "element_id": "element_metal",
+    "rarity": "epic",
+    "attack": 73,
+    "source_monster_ids": [
+      "monster_thunder_peak_1",
+      "monster_thunder_peak_lord"
+    ],
+    "source_map_ids": [
+      "map_thunder_peak"
+    ]
+  },
+  {
+    "id": "item_bayonet_9",
+    "name": "木灵刺刀·9阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 9,
+    "element_id": "element_wood",
+    "rarity": "epic",
+    "attack": 73,
+    "source_monster_ids": [
+      "monster_thunder_peak_2",
+      "monster_thunder_peak_lord"
+    ],
+    "source_map_ids": [
+      "map_thunder_peak"
+    ]
+  },
+  {
+    "id": "item_longbow_9",
+    "name": "水灵长弓·9阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 9,
+    "element_id": "element_water",
+    "rarity": "epic",
+    "attack": 73,
+    "source_monster_ids": [
+      "monster_thunder_peak_2",
+      "monster_thunder_peak_lord"
+    ],
+    "source_map_ids": [
+      "map_thunder_peak"
+    ]
+  },
+  {
+    "id": "item_warhammer_9",
+    "name": "火灵战锤·9阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 9,
+    "element_id": "element_fire",
+    "rarity": "epic",
+    "attack": 73,
+    "source_monster_ids": [
+      "monster_thunder_peak_lord"
+    ],
+    "source_map_ids": [
+      "map_thunder_peak"
+    ]
+  },
+  {
+    "id": "item_katana_10",
+    "name": "金灵太刀·10阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_katana",
+    "class_id": "class_swordsman",
+    "required_level": 10,
+    "element_id": "element_metal",
+    "rarity": "epic",
+    "attack": 80,
+    "source_monster_ids": [
+      "monster_five_elements_sanctum_1",
+      "monster_five_elements_sanctum_lord"
+    ],
+    "source_map_ids": [
+      "map_five_elements_sanctum"
+    ]
+  },
+  {
+    "id": "item_wand_10",
+    "name": "木灵魔杖·10阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_wand",
+    "class_id": "class_mage",
+    "required_level": 10,
+    "element_id": "element_wood",
+    "rarity": "epic",
+    "attack": 80,
+    "source_monster_ids": [
+      "monster_five_elements_sanctum_1",
+      "monster_five_elements_sanctum_lord"
+    ],
+    "source_map_ids": [
+      "map_five_elements_sanctum"
+    ]
+  },
+  {
+    "id": "item_bayonet_10",
+    "name": "水灵刺刀·10阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_bayonet",
+    "class_id": "class_assassin",
+    "required_level": 10,
+    "element_id": "element_water",
+    "rarity": "epic",
+    "attack": 80,
+    "source_monster_ids": [
+      "monster_five_elements_sanctum_2",
+      "monster_five_elements_sanctum_lord"
+    ],
+    "source_map_ids": [
+      "map_five_elements_sanctum"
+    ]
+  },
+  {
+    "id": "item_longbow_10",
+    "name": "火灵长弓·10阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_longbow",
+    "class_id": "class_ranger",
+    "required_level": 10,
+    "element_id": "element_fire",
+    "rarity": "epic",
+    "attack": 80,
+    "source_monster_ids": [
+      "monster_five_elements_sanctum_2",
+      "monster_five_elements_sanctum_lord"
+    ],
+    "source_map_ids": [
+      "map_five_elements_sanctum"
+    ]
+  },
+  {
+    "id": "item_warhammer_10",
+    "name": "土灵战锤·10阶",
+    "aliases": [],
+    "category": "weapon",
+    "weapon_type_id": "weapon_type_warhammer",
+    "class_id": "class_guardian",
+    "required_level": 10,
+    "element_id": "element_earth",
+    "rarity": "epic",
+    "attack": 80,
+    "source_monster_ids": [
+      "monster_five_elements_sanctum_lord"
+    ],
+    "source_map_ids": [
+      "map_five_elements_sanctum"
+    ]
+  }
+]

@@ -1,0 +1,1718 @@
+[
+  {
+    "id": "monster_beginner_meadow_1",
+    "name": "草原史莱姆",
+    "rank": "normal",
+    "level": 0,
+    "element_id": "element_wood",
+    "map_id": "map_beginner_meadow",
+    "hp": 30,
+    "attack": 5,
+    "defense": 2,
+    "experience": 10,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_0",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_0",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_beginner_meadow_2",
+    "name": "幼狼",
+    "rank": "normal",
+    "level": 0,
+    "element_id": "element_wood",
+    "map_id": "map_beginner_meadow",
+    "hp": 30,
+    "attack": 5,
+    "defense": 2,
+    "experience": 10,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_0",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_0",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_beginner_meadow_lord",
+    "name": "草原狼王",
+    "rank": "lord",
+    "level": 0,
+    "element_id": "element_wood",
+    "map_id": "map_beginner_meadow",
+    "hp": 150,
+    "attack": 5,
+    "defense": 2,
+    "experience": 50,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_0",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_0",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_0",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_0",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_0",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_greenwood_1",
+    "name": "毒蘑菇",
+    "rank": "normal",
+    "level": 1,
+    "element_id": "element_wood",
+    "map_id": "map_greenwood",
+    "hp": 55,
+    "attack": 8,
+    "defense": 3,
+    "experience": 20,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_1",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_1",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_greenwood_2",
+    "name": "荆棘妖",
+    "rank": "normal",
+    "level": 1,
+    "element_id": "element_wood",
+    "map_id": "map_greenwood",
+    "hp": 55,
+    "attack": 8,
+    "defense": 3,
+    "experience": 20,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_1",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_1",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_greenwood_lord",
+    "name": "古树守卫",
+    "rank": "lord",
+    "level": 1,
+    "element_id": "element_wood",
+    "map_id": "map_greenwood",
+    "hp": 275,
+    "attack": 11,
+    "defense": 5,
+    "experience": 100,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_1",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_1",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_1",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_1",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_1",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_copper_mine_1",
+    "name": "矿洞蝙蝠",
+    "rank": "normal",
+    "level": 2,
+    "element_id": "element_metal",
+    "map_id": "map_copper_mine",
+    "hp": 80,
+    "attack": 11,
+    "defense": 4,
+    "experience": 30,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_2",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_2",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_copper_mine_2",
+    "name": "铜甲虫",
+    "rank": "normal",
+    "level": 2,
+    "element_id": "element_metal",
+    "map_id": "map_copper_mine",
+    "hp": 80,
+    "attack": 11,
+    "defense": 4,
+    "experience": 30,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_2",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_2",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_copper_mine_lord",
+    "name": "赤铜魔像",
+    "rank": "lord",
+    "level": 2,
+    "element_id": "element_metal",
+    "map_id": "map_copper_mine",
+    "hp": 400,
+    "attack": 17,
+    "defense": 8,
+    "experience": 150,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_2",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_2",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_2",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_2",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_2",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_stream_marsh_1",
+    "name": "水史莱姆",
+    "rank": "normal",
+    "level": 3,
+    "element_id": "element_water",
+    "map_id": "map_stream_marsh",
+    "hp": 105,
+    "attack": 14,
+    "defense": 5,
+    "experience": 40,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_3",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_3",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_stream_marsh_2",
+    "name": "湿地鳄",
+    "rank": "normal",
+    "level": 3,
+    "element_id": "element_water",
+    "map_id": "map_stream_marsh",
+    "hp": 105,
+    "attack": 14,
+    "defense": 5,
+    "experience": 40,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_3",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_3",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_stream_marsh_lord",
+    "name": "沼泽蛇王",
+    "rank": "lord",
+    "level": 3,
+    "element_id": "element_water",
+    "map_id": "map_stream_marsh",
+    "hp": 525,
+    "attack": 23,
+    "defense": 11,
+    "experience": 200,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_3",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_3",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_3",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_3",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_3",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_ember_valley_1",
+    "name": "火蜥蜴",
+    "rank": "normal",
+    "level": 4,
+    "element_id": "element_fire",
+    "map_id": "map_ember_valley",
+    "hp": 130,
+    "attack": 17,
+    "defense": 6,
+    "experience": 50,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_flame_sword",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_4",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_ember_valley_2",
+    "name": "灰烬精灵",
+    "rank": "normal",
+    "level": 4,
+    "element_id": "element_fire",
+    "map_id": "map_ember_valley",
+    "hp": 130,
+    "attack": 17,
+    "defense": 6,
+    "experience": 50,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_4",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_4",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_ember_valley_lord",
+    "name": "熔岩兽王",
+    "rank": "lord",
+    "level": 4,
+    "element_id": "element_fire",
+    "map_id": "map_ember_valley",
+    "hp": 650,
+    "attack": 29,
+    "defense": 14,
+    "experience": 250,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_flame_sword",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_4",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_4",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_4",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_4",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_dark_forest_1",
+    "name": "幽影狼",
+    "rank": "normal",
+    "level": 5,
+    "element_id": "element_wood",
+    "map_id": "map_dark_forest",
+    "hp": 155,
+    "attack": 20,
+    "defense": 7,
+    "experience": 60,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_5",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_5",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_dark_forest_2",
+    "name": "剧毒蜘蛛",
+    "rank": "normal",
+    "level": 5,
+    "element_id": "element_wood",
+    "map_id": "map_dark_forest",
+    "hp": 155,
+    "attack": 20,
+    "defense": 7,
+    "experience": 60,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_5",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_5",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_dark_forest_lord",
+    "name": "暗林蛛后",
+    "rank": "lord",
+    "level": 5,
+    "element_id": "element_wood",
+    "map_id": "map_dark_forest",
+    "hp": 775,
+    "attack": 35,
+    "defense": 17,
+    "experience": 300,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 0.75
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_5",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_5",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_5",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_5",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_5",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_sand_ruins_1",
+    "name": "沙虫",
+    "rank": "normal",
+    "level": 6,
+    "element_id": "element_earth",
+    "map_id": "map_sand_ruins",
+    "hp": 180,
+    "attack": 23,
+    "defense": 8,
+    "experience": 70,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_6",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_6",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_sand_ruins_2",
+    "name": "遗迹石卫",
+    "rank": "normal",
+    "level": 6,
+    "element_id": "element_earth",
+    "map_id": "map_sand_ruins",
+    "hp": 180,
+    "attack": 23,
+    "defense": 8,
+    "experience": 70,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_6",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_6",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_sand_ruins_lord",
+    "name": "流沙巨蝎",
+    "rank": "lord",
+    "level": 6,
+    "element_id": "element_earth",
+    "map_id": "map_sand_ruins",
+    "hp": 900,
+    "attack": 41,
+    "defense": 20,
+    "experience": 350,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_6",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_6",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_6",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_6",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_6",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_flame_canyon_1",
+    "name": "熔岩元素",
+    "rank": "normal",
+    "level": 7,
+    "element_id": "element_fire",
+    "map_id": "map_flame_canyon",
+    "hp": 205,
+    "attack": 26,
+    "defense": 9,
+    "experience": 80,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_7",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_7",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_flame_canyon_2",
+    "name": "赤焰飞蛇",
+    "rank": "normal",
+    "level": 7,
+    "element_id": "element_fire",
+    "map_id": "map_flame_canyon",
+    "hp": 205,
+    "attack": 26,
+    "defense": 9,
+    "experience": 80,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_7",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_7",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_flame_canyon_lord",
+    "name": "烈焰暴君",
+    "rank": "lord",
+    "level": 7,
+    "element_id": "element_fire",
+    "map_id": "map_flame_canyon",
+    "hp": 1025,
+    "attack": 47,
+    "defense": 23,
+    "experience": 400,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_7",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_7",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_7",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_7",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_7",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_frost_dragon_snowfield_1",
+    "name": "冰原狼",
+    "rank": "normal",
+    "level": 8,
+    "element_id": "element_water",
+    "map_id": "map_frost_dragon_snowfield",
+    "hp": 230,
+    "attack": 29,
+    "defense": 10,
+    "experience": 90,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_8",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_8",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_frost_dragon_snowfield_2",
+    "name": "寒霜元素",
+    "rank": "normal",
+    "level": 8,
+    "element_id": "element_water",
+    "map_id": "map_frost_dragon_snowfield",
+    "hp": 230,
+    "attack": 29,
+    "defense": 10,
+    "experience": 90,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_8",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_8",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_frost_dragon",
+    "name": "冰霜巨龙",
+    "rank": "lord",
+    "level": 8,
+    "element_id": "element_water",
+    "map_id": "map_frost_dragon_snowfield",
+    "hp": 1150,
+    "attack": 53,
+    "defense": 26,
+    "experience": 450,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.75
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1.5
+      }
+    ],
+    "combat_notes": "水属性领主；冰甲特殊弱火（1.75倍），土克水（1.5倍）。此表是最终倍率，不叠加通用五行倍率。",
+    "drops": [
+      {
+        "item_id": "item_katana_8",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_8",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_8",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_8",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_8",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_thunder_peak_1",
+    "name": "雷羽鹰",
+    "rank": "normal",
+    "level": 9,
+    "element_id": "element_metal",
+    "map_id": "map_thunder_peak",
+    "hp": 255,
+    "attack": 32,
+    "defense": 11,
+    "experience": 100,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_9",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_9",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_thunder_peak_2",
+    "name": "金甲山魈",
+    "rank": "normal",
+    "level": 9,
+    "element_id": "element_metal",
+    "map_id": "map_thunder_peak",
+    "hp": 255,
+    "attack": 32,
+    "defense": 11,
+    "experience": 100,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_9",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_9",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_thunder_peak_lord",
+    "name": "雷霆狮鹫",
+    "rank": "lord",
+    "level": 9,
+    "element_id": "element_metal",
+    "map_id": "map_thunder_peak",
+    "hp": 1275,
+    "attack": 59,
+    "defense": 29,
+    "experience": 500,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_9",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_9",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_9",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_9",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_9",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_five_elements_sanctum_1",
+    "name": "圣域守卫",
+    "rank": "normal",
+    "level": 10,
+    "element_id": "element_earth",
+    "map_id": "map_five_elements_sanctum",
+    "hp": 280,
+    "attack": 35,
+    "defense": 12,
+    "experience": 110,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_katana_10",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_10",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_five_elements_sanctum_2",
+    "name": "五行灵兽",
+    "rank": "normal",
+    "level": 10,
+    "element_id": "element_earth",
+    "map_id": "map_five_elements_sanctum",
+    "hp": 280,
+    "attack": 35,
+    "defense": 12,
+    "experience": 110,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "适合同级练级。",
+    "drops": [
+      {
+        "item_id": "item_bayonet_10",
+        "probability": 0.12,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_10",
+        "probability": 0.12,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "monster_five_elements_sanctum_lord",
+    "name": "五行麒麟",
+    "rank": "lord",
+    "level": 10,
+    "element_id": "element_earth",
+    "map_id": "map_five_elements_sanctum",
+    "hp": 1400,
+    "attack": 65,
+    "defense": 32,
+    "experience": 550,
+    "incoming_element_multipliers": [
+      {
+        "element_id": "element_metal",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_wood",
+        "damage_multiplier": 1.5
+      },
+      {
+        "element_id": "element_water",
+        "damage_multiplier": 0.75
+      },
+      {
+        "element_id": "element_fire",
+        "damage_multiplier": 1
+      },
+      {
+        "element_id": "element_earth",
+        "damage_multiplier": 1
+      }
+    ],
+    "combat_notes": "领主生命值较高，建议同级或更高级挑战。",
+    "drops": [
+      {
+        "item_id": "item_katana_10",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_wand_10",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_bayonet_10",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_longbow_10",
+        "probability": 0.25,
+        "quantity": 1
+      },
+      {
+        "item_id": "item_warhammer_10",
+        "probability": 0.25,
+        "quantity": 1
+      }
+    ]
+  }
+]

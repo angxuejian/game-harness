@@ -1,0 +1,82 @@
+[
+  {
+    "question": "火焰剑在哪里获得？",
+    "item_id": "item_flame_sword",
+    "expected_map_ids": [
+      "map_ember_valley"
+    ],
+    "expected_monster_ids": [
+      "monster_ember_valley_1",
+      "monster_ember_valley_lord"
+    ]
+  },
+  {
+    "question": "5级，想去黑暗森林练级",
+    "player_level": 5,
+    "map_id": "map_dark_forest",
+    "expected_accessible": true,
+    "recommended_monster_ids": [
+      "monster_dark_forest_1",
+      "monster_dark_forest_2"
+    ]
+  },
+  {
+    "question": "冰霜巨龙在哪个地图？",
+    "monster_id": "monster_frost_dragon",
+    "expected_map_ids": [
+      "map_frost_dragon_snowfield"
+    ]
+  },
+  {
+    "question": "8级剑士打冰霜巨龙，有什么装备推荐？",
+    "player_level": 8,
+    "class_id": "class_swordsman",
+    "monster_id": "monster_frost_dragon",
+    "expected_item_ids": [
+      "item_katana_8"
+    ],
+    "ranking_rule": "attack * class_element_affinity * monster_incoming_element_multiplier"
+  },
+  {
+    "question": "冰霜巨龙适合用火属性武器吗？",
+    "monster_id": "monster_frost_dragon",
+    "element_id": "element_fire",
+    "expected_damage_multiplier": 1.75
+  },
+  {
+    "question": "有哪些金属性武器？",
+    "element_id": "element_metal",
+    "expected_item_ids": [
+      "item_katana_0",
+      "item_warhammer_1",
+      "item_longbow_2",
+      "item_bayonet_3",
+      "item_wand_4",
+      "item_katana_5",
+      "item_warhammer_6",
+      "item_longbow_7",
+      "item_bayonet_8",
+      "item_wand_9",
+      "item_katana_10"
+    ]
+  },
+  {
+    "question": "法师推荐什么属性？",
+    "class_id": "class_mage",
+    "expected_element_ids": [
+      "element_fire"
+    ],
+    "note": "无特定敌人时按职业契合度；对特定敌人时还需考虑其属性倍率。"
+  },
+  {
+    "question": "黑暗森林可以爆什么装备？",
+    "map_id": "map_dark_forest",
+    "expected_item_ids": [
+      "item_katana_5",
+      "item_wand_5",
+      "item_bayonet_5",
+      "item_longbow_5",
+      "item_warhammer_5"
+    ]
+  }
+]

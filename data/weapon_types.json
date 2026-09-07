@@ -1,0 +1,27 @@
+[
+  {
+    "id": "weapon_type_katana",
+    "name": "太刀",
+    "class_id": "class_swordsman"
+  },
+  {
+    "id": "weapon_type_wand",
+    "name": "魔杖",
+    "class_id": "class_mage"
+  },
+  {
+    "id": "weapon_type_bayonet",
+    "name": "刺刀",
+    "class_id": "class_assassin"
+  },
+  {
+    "id": "weapon_type_longbow",
+    "name": "长弓",
+    "class_id": "class_ranger"
+  },
+  {
+    "id": "weapon_type_warhammer",
+    "name": "战锤",
+    "class_id": "class_guardian"
+  }
+]
