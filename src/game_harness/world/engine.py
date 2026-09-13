@@ -11,20 +11,17 @@ def build_tools(state: GameState) -> list[BaseTool]:
       @tool("eat")
       def eat_tool(item_name: GameFoodType) -> bool:
           """Consume one food item from the backpack to reduce hunger."""
-          print(f"Attempting to eat {item_name}...")
           return eat(state, item_name)
 
       @tool("drink")
       def drink_tool(item_name: GameDrinkType) -> bool:
           """Consume one drink from the backpack to reduce thirst."""
-          print(f"Attempting to drink {item_name}...")
           return drink(state, item_name)
 
       @tool("end_day")
       def end_day_tool() -> str:
           """End the current day and apply hunger, thirst, and HP changes."""
           end_day(state)
-          print(state)
           return str(state)
 
       return [eat_tool, drink_tool, end_day_tool]

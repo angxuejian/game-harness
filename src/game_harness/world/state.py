@@ -2,6 +2,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from game_harness.world.backpack import CANNED_FOOD, ELECTROLYTE_DRINK, COMPRESSED_BISCUIT, WATER,CHOCOLATE,GLUCOSE_DRINK, BackpackItem
+from game_harness.trace.color import GREEN, BLUE, RESET, RED
 
 @dataclass
 class GameState:
@@ -17,27 +18,19 @@ class GameState:
     day: int = 1
     alive: bool = True
 
-    backpack: list[BackpackItem] = field(default_factory=lambda: [
-        CANNED_FOOD,
-        ELECTROLYTE_DRINK,
-        COMPRESSED_BISCUIT,
-        WATER,
-        CHOCOLATE,
-        GLUCOSE_DRINK,
-        CANNED_FOOD,
-        ELECTROLYTE_DRINK
-    ])
+    backpack: list[BackpackItem] = field(default_factory=lambda: [CANNED_FOOD])
 
     def __str__(self) -> str:
         names = [item.name.value for item in self.backpack]
         return (
-            f"GameState(day={self.day}, hp={self.hp}, stamina={self.stamina}, "
-            f"hunger={self.hunger}, thirst={self.thirst}, "
-            f"alive={self.alive}, backpack={names})"
+            f"GameState({RED}day={self.day}{RESET}, hp={self.hp}, stamina={self.stamina}, "
+            f"{GREEN}hunger={self.hunger}{RESET}, {BLUE}thirst={self.thirst}{RESET}, "
+            f"alive={self.alive}, backpack={len(names)})"
         )
 
     def __post_init__(self):
-        print(self)
+        # print(self)
+        pass
 
 @dataclass
 class GameConfig:

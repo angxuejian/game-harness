@@ -2,10 +2,9 @@
 from game_harness.world.engine import build_context
 from game_harness.world.state import GameState
 from game_harness.world.engine import build_tools, build_context, build_system_prompt
-from game_harness.player.siliconflow import create_player
+from game_harness.player.llm import create_player
 from langchain_core.messages import SystemMessage, HumanMessage
-
-
+from game_harness.trace.color import GREEN, BLUE, RESET
 
 def run_game() -> GameState:
     """Runs the game loop until the game is over."""
@@ -17,8 +16,16 @@ def run_game() -> GameState:
 
     system_message = SystemMessage(content=build_system_prompt())
     last_action = []
+    last_day = 0
 
     while state.alive:
+        if state.day != last_day:
+            last_day = state.day
+            if state.day > 1:
+                print('\n')
+            print(state)
+        
+        
         messages = [
             system_message,
             *last_action,
@@ -34,9 +41,9 @@ def run_game() -> GameState:
         for call in response.tool_calls:
             result = tool_map[call["name"]].invoke(call)
             last_action.append(result)
+            print(f"Tool {call['name']} returned: {GREEN}hunger={state.hunger}{RESET}, {BLUE}thirst={state.thirst}{RESET}")
 
-
-    print("Game Over! survived for", state.day, "days.")
+    print("\nGame Over! survived for", state.day, "days.")
 
 
 # while state.alive:
