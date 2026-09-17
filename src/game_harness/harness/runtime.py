@@ -4,7 +4,7 @@ from game_harness.world.state import GameState
 from game_harness.world.engine import build_tools, build_context, build_system_prompt
 from game_harness.player.llm import create_player
 from langchain_core.messages import SystemMessage, HumanMessage
-from game_harness.trace.color import GREEN, BLUE, RESET
+from game_harness.trace.color import GREEN, BLUE, RESET, PURPLE
 
 def run_game() -> GameState:
     """Runs the game loop until the game is over."""
@@ -41,7 +41,7 @@ def run_game() -> GameState:
         for call in response.tool_calls:
             result = tool_map[call["name"]].invoke(call)
             last_action.append(result)
-            print(f"Tool {call['name']} returned: {GREEN}hunger={state.hunger}{RESET}, {BLUE}thirst={state.thirst}{RESET}")
+            print(f"Tool {call['name']} returned: {PURPLE}stamina={state.stamina}{RESET} {GREEN}hunger={state.hunger}{RESET}, {BLUE}thirst={state.thirst}{RESET}")
 
     print("\nGame Over! survived for", state.day, "days.")
 

@@ -2,7 +2,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from game_harness.world.backpack import CANNED_FOOD, ELECTROLYTE_DRINK, COMPRESSED_BISCUIT, WATER,CHOCOLATE,GLUCOSE_DRINK, BackpackItem
-from game_harness.trace.color import GREEN, BLUE, RESET, RED
+from game_harness.trace.color import GREEN, BLUE, RESET, RED, YELLOW, PURPLE
 
 @dataclass
 class GameState:
@@ -23,7 +23,7 @@ class GameState:
     def __str__(self) -> str:
         names = [item.name.value for item in self.backpack]
         return (
-            f"GameState({RED}day={self.day}{RESET}, hp={self.hp}, stamina={self.stamina}, "
+            f"GameState({YELLOW}day={self.day}{RESET}, hp={self.hp}, {PURPLE}stamina={self.stamina}{RESET}, "
             f"{GREEN}hunger={self.hunger}{RESET}, {BLUE}thirst={self.thirst}{RESET}, "
             f"alive={self.alive}, backpack={len(names)})"
         )

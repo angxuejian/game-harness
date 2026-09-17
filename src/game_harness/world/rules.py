@@ -1,7 +1,8 @@
-from game_harness.world.state import GameState, GameAction
+from game_harness.world.state import GameState, GameAction, GameConfig
+from game_harness.world.backpack import BackpackItem
 
 ACTION_STAMINA_COST = {
-    GameAction.EXPLORE: 30,
+    GameAction.EXPLORE: 20,
     GameAction.REST: 10,
 }
 
@@ -12,7 +13,6 @@ def check_alive(state: GameState) -> None:
     """
     if state.hp <= 0:
         state.alive = False
-
 
 def consume_stamina(state: GameState, cost: int) -> bool:
     """
@@ -25,6 +25,14 @@ def consume_stamina(state: GameState, cost: int) -> bool:
         return False
 
     state.stamina -= cost
+    return True
+
+def recover_stamina(state: GameState) -> bool:
+    if not state.alive:
+        return False
+
+    cost = ACTION_STAMINA_COST.get(GameAction.REST, 0)
+    state.stamina = min(state.stamina + cost, GameConfig.max_stamina)
     return True
 
 def can_perform_action(state: GameState, action: GameAction) -> bool:
@@ -59,6 +67,7 @@ def settle_day(state: GameState) -> None:
 
     state.hunger += 20
     state.thirst += 30
+    recover_stamina(state=state)
     apply_survival_damage(state)
     check_alive(state)
 
@@ -77,3 +86,6 @@ def end_day(state: GameState) -> None:
     if not state.alive:
         return
     state.day += 1
+
+def add_backpack_item(state: GameState, backpack_item: BackpackItem) -> None:
+    state.backpack.append(backpack_item)
