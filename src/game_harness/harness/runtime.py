@@ -1,7 +1,7 @@
 
-from game_harness.world.engine import build_context
+from game_harness.harness.context import build_context
 from game_harness.world.state import GameState
-from game_harness.world.engine import build_tools, build_context, build_system_prompt
+from game_harness.harness.context import build_tools, build_context, build_system_prompt
 from game_harness.player.llm import create_player
 from langchain_core.messages import SystemMessage, HumanMessage, ToolMessage
 from game_harness.trace.color import GREEN, BLUE, RESET, PURPLE
