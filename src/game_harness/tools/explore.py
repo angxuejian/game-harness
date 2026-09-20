@@ -1,5 +1,9 @@
-from game_harness.world.events import generate_backpack_item, generate_explore_event
-from game_harness.world.rules import add_backpack_item, perform_action
+from game_harness.world.rules import (
+    add_backpack_item,
+    perform_action,
+    generate_backpack_item,
+    generate_explore_event,
+)
 from game_harness.world.state import GameAction, GameState
 
 
@@ -10,7 +14,11 @@ def explore(state: GameState) -> str:
     Return the event description and item details, or explain why exploration failed.
     """
     if not perform_action(state=state, action=GameAction.EXPLORE):
-        return "The player has died and cannot explore." if not state.alive else "Insufficient stamina and cannot explore."
+        return (
+            "The player has died and cannot explore."
+            if not state.alive
+            else "Insufficient stamina and cannot explore."
+        )
 
     event = generate_explore_event()
 

@@ -1,9 +1,8 @@
-
-from game_harness.world.backpack import BackpackItemType, GameDrinkType
+from game_harness.data.backpack import BackpackItemType, GameDrinkType
 from game_harness.world.state import GameState
 
 
-def drink(state: GameState, item_name: GameDrinkType) -> bool:
+def drink(state: GameState, item_name: GameDrinkType) -> str:
     """
     Allows the player to drink a beverage item from their backpack, reducing thirst.
     """

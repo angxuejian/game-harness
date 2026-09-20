@@ -3,43 +3,43 @@ from langchain_core.tools import BaseTool
 
 from game_harness.tools.eat import eat
 from game_harness.tools.drink import drink
-from game_harness.world.backpack import GameFoodType, GameDrinkType
+from game_harness.data.backpack import GameFoodType, GameDrinkType
 from game_harness.world.rules import end_day, ACTION_STAMINA_COST
 from game_harness.world.state import GameState, GameConfig, GameAction
 from game_harness.tools.explore import explore
 
+
 def build_tools(state: GameState) -> list[BaseTool]:
-      @tool('explore')
-      def explore_tool() -> str:
-          """Explore the surroundings and encounter a random event.
+    @tool("explore")
+    def explore_tool() -> str:
+        """Explore the surroundings and encounter a random event.
 
-          May discover food or a drink, which is added to the backpack, or find
-          nothing useful. Returns the event description and, when an item is
-          found, its name and restoration value. Items must be consumed with
-          eat or drink to reduce hunger or thirst.
-          """
-          result = explore(state=state)
-          print(result)
-          return result
-      
-      @tool("eat")
-      def eat_tool(item_name: GameFoodType) -> bool:
-          """Consume one food item from the backpack to reduce hunger."""
-          return eat(state, item_name)
+        May discover food or a drink, which is added to the backpack, or find
+        nothing useful. Returns the event description and, when an item is
+        found, its name and restoration value. Items must be consumed with
+        eat or drink to reduce hunger or thirst.
+        """
+        result = explore(state=state)
+        print(result)
+        return result
 
-      @tool("drink")
-      def drink_tool(item_name: GameDrinkType) -> bool:
-          """Consume one drink from the backpack to reduce thirst."""
-          return drink(state, item_name)
+    @tool("eat")
+    def eat_tool(item_name: GameFoodType) -> str:
+        """Consume one food item from the backpack to reduce hunger."""
+        return eat(state, item_name)
 
-      @tool("end_day")
-      def end_day_tool() -> str:
-          """End the current day and apply hunger, thirst, and HP changes."""
-          end_day(state)
-          return str(state)
+    @tool("drink")
+    def drink_tool(item_name: GameDrinkType) -> str:
+        """Consume one drink from the backpack to reduce thirst."""
+        return drink(state, item_name)
 
-      return [explore_tool, eat_tool, drink_tool, end_day_tool]
+    @tool("end_day")
+    def end_day_tool() -> str:
+        """End the current day and apply hunger, thirst, and HP changes."""
+        end_day(state)
+        return str(state)
 
+    return [explore_tool, eat_tool, drink_tool, end_day_tool]
 
 
 def build_context(state: GameState) -> str:

@@ -1,5 +1,4 @@
-
-from game_harness.world.backpack import BackpackItemType, GameFoodType
+from game_harness.data.backpack import BackpackItemType, GameFoodType
 from game_harness.world.state import GameState
 
 
