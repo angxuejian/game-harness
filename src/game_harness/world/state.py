@@ -39,6 +39,7 @@ class GameConfig:
     """
     max_hp: int = 100
     max_stamina: int = 100
+    end_day_stamina_restore: int = 10
 
 
 class GameAction(str, Enum):
@@ -46,7 +47,5 @@ class GameAction(str, Enum):
     Represents the possible actions a player can take in the game.
     """
     EXPLORE = "explore"
-    REST = "rest"
     DRINK = "drink"
     EAT = "eat"
-    USE = "use"

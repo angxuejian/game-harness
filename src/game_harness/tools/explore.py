@@ -10,7 +10,7 @@ def explore(state: GameState) -> str:
     Return the event description and item details, or explain why exploration failed.
     """
     if not perform_action(state=state, action=GameAction.EXPLORE):
-        return "角色已死亡，无法探索。" if not state.alive else "体力不足，无法探索。"
+        return "The player has died and cannot explore." if not state.alive else "Insufficient stamina and cannot explore."
 
     event = generate_explore_event()
 
@@ -19,4 +19,4 @@ def explore(state: GameState) -> str:
 
     item = generate_backpack_item(event.backpack_item_type)
     add_backpack_item(state=state, backpack_item=item)
-    return f"{event.description}，获得：{item.name.value}，恢复：{item.restore}"
+    return f"{event.description}, get: {item.name.value}, restore: {item.restore}"

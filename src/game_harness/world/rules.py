@@ -3,7 +3,8 @@ from game_harness.world.backpack import BackpackItem
 
 ACTION_STAMINA_COST = {
     GameAction.EXPLORE: 20,
-    GameAction.REST: 10,
+    GameAction.DRINK: 0,
+    GameAction.EAT: 0
 }
 
 
@@ -18,7 +19,7 @@ def consume_stamina(state: GameState, cost: int) -> bool:
     """
     Consumes stamina from the player if they have enough.
     """
-    if cost <= 0:
+    if cost < 0:
         return False
     
     if state.stamina < cost:
@@ -31,7 +32,7 @@ def recover_stamina(state: GameState) -> bool:
     if not state.alive:
         return False
 
-    cost = ACTION_STAMINA_COST.get(GameAction.REST, 0)
+    cost = ACTION_STAMINA_COST.get(GameConfig.end_day_stamina_restore, 0)
     state.stamina = min(state.stamina + cost, GameConfig.max_stamina)
     return True
 

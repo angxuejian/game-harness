@@ -10,14 +10,11 @@ def drink(state: GameState, item_name: GameDrinkType) -> bool:
     item = next((item for item in state.backpack if item.name == item_name), None)
 
     if item is None:
-        # print(f"{item_name} is not in the backpack.")
-        return False
+        return f"{item_name} is not in the backpack."
 
     if item.type != BackpackItemType.DRINK:
-        # print(f"{item.name} is not a drink item.")
-        return False
+        return f"{item.name} is not a drink item."
 
     state.thirst = max(0, state.thirst - item.restore)
     state.backpack.remove(item)
-    # print(f"Drank {item.name}. Thirst is now {state.thirst}.")
-    return True
+    return f"Drank {item.name}. Thirst is now {state.thirst}."
