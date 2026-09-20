@@ -4,12 +4,36 @@ A survival game built for LLMs to play, not humans. The gameplay is based on *60
 ## Game Rules
 
 1. No perfect ending. Just survive as long as you can.
-2. Player（LLM）
-3. At the start of the game, the player picks 5 items from 10 items.
-4. HP: 100, Stamina: 100.
-5. Every day, the player loses HP from hunger and thirst.
-6. Each action costs stamina. The player can explore to get resources and decide when to end the day.
-7. The player has 10 bag slots. 5 are for items, and 5 are for food and water.
+1. Player（LLM）
+1. HP: 100, Stamina: 100.
+1. Every day, the player loses HP from hunger and thirst.
+1. Each action costs stamina. The player can explore to get resources and decide when to end the day.
+
+<!-- 3. At the start of the game, the player picks 5 items from 10 items. -->
+<!-- 7. The player has 10 bag slots. 5 are for items, and 5 are for food and water. -->
+
+## Qucik Start
+
+1. Copy environment variables file:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+2. Edit `.env`，setup `API Key` and `Base URL`。
+3. Install：
+
+    ```bash
+    uv sync
+    ```
+
+4. Game start：
+
+    ```bash
+    uv run game-harness
+    ```
+
+
 
 ## Chit-chat
 

@@ -7,6 +7,9 @@ from game_harness.data.backpack import GameFoodType, GameDrinkType
 from game_harness.world.rules import end_day, ACTION_STAMINA_COST
 from game_harness.world.state import GameState, GameConfig, GameAction
 from game_harness.tools.explore import explore
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def build_tools(state: GameState) -> list[BaseTool]:
@@ -20,7 +23,7 @@ def build_tools(state: GameState) -> list[BaseTool]:
         eat or drink to reduce hunger or thirst.
         """
         result = explore(state=state)
-        print(result)
+        logger.info(result)
         return result
 
     @tool("eat")

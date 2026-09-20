@@ -9,8 +9,6 @@ from game_harness.data.backpack import (
     GLUCOSE_DRINK,
     BackpackItem,
 )
-from game_harness.trace.color import GREEN, BLUE, RESET, RED, YELLOW, PURPLE
-
 
 @dataclass
 class GameState:
@@ -32,8 +30,8 @@ class GameState:
     def __str__(self) -> str:
         names = [item.name.value for item in self.backpack]
         return (
-            f"GameState({YELLOW}day={self.day}{RESET}, hp={self.hp}, {PURPLE}stamina={self.stamina}{RESET}, "
-            f"{GREEN}hunger={self.hunger}{RESET}, {BLUE}thirst={self.thirst}{RESET}, "
+            f"GameState(day={self.day}, hp={self.hp}, stamina={self.stamina}, "
+            f"hunger={self.hunger}, thirst={self.thirst}, "
             f"alive={self.alive}, backpack={len(names)})"
         )
 

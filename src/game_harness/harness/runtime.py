@@ -2,9 +2,16 @@ from game_harness.harness.context import build_context
 from game_harness.world.state import GameState
 from game_harness.harness.context import build_tools, build_context, build_system_prompt
 from game_harness.player.llm import create_player
-from langchain_core.messages import SystemMessage, HumanMessage, ToolMessage, BaseMessage
-from game_harness.trace.color import GREEN, BLUE, RESET, PURPLE
+from langchain_core.messages import (
+    SystemMessage,
+    HumanMessage,
+    ToolMessage,
+    BaseMessage,
+)
 from pydantic import ValidationError
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def run_game() -> GameState:
@@ -20,12 +27,13 @@ def run_game() -> GameState:
     last_day = 0
     consecutive_no_tool_calls = 0
 
+    logger.info("Game start\n")
     while state.alive:
         if state.day != last_day:
             last_day = state.day
             if state.day > 1:
-                print("\n")
-            print(state)
+                logger.info("\n")
+            logger.info(state)
 
         messages = [
             system_message,
@@ -36,17 +44,15 @@ def run_game() -> GameState:
         try:
             response = player.invoke(messages)
         except Exception as e:
-            print(f"Game Over! The player request failed. Error: {e}")
+            logger.warning(f"Game Over! The player request failed. Error: {e}")
             break
 
         if not response.tool_calls:
+            logger.warning("The model returned no tool calls. Retrying...")
             consecutive_no_tool_calls += 1
-            print("The model returned no tool calls. Retrying...")
-
             if consecutive_no_tool_calls >= 5:
-                print(
-                    "Game Over! The player failed to call a tool 5 consecutive times."
-                )
+                logger.warning("Game Over! The player failed to call a tool 5 consecutive times.")
+                break
             continue
 
         consecutive_no_tool_calls = 0
@@ -54,27 +60,28 @@ def run_game() -> GameState:
         execution_failed = False
 
         for call in response.tool_calls:
-            tool = tool_map[call["name"]]
+            tool = tool_map.get(call["name"])
 
             if not tool:
                 result = ToolMessage(
                     content=f"Tool is not: {call['name']}, can use tool list: {','.join(tool_map)}",
                     tool_call_id=call["id"],
                 )
+                logger.info(f"Tool is not: {call['name']}, can use tool list: {','.join(tool_map)}")
             else:
                 try:
                     result = tool.invoke(call)
-                    print(
-                        f"Tool {call['name']} returned: {PURPLE}stamina={state.stamina}{RESET} {GREEN}hunger={state.hunger}{RESET}, {BLUE}thirst={state.thirst}{RESET}"
-                    )
+                    logger.info(f"Tool {call['name']} returned: stamina={state.stamina}, hunger={state.hunger}, thirst={state.thirst}")
+
                 except ValidationError as v:
                     result = ToolMessage(
                         content=f"Parameter validation failed. {v}. please retry",
                         tool_call_id=call["id"],
                     )
+                    logger.info(f"Parameter validation failed. {v}. please retry")
                 except Exception as e:
-                    print(f"Tool {call['name']} run failed: {e}")
                     execution_failed = True
+                    logger.warning(f"Tool {call['name']} run failed: {e}")
                     break
 
             last_action.append(result)
@@ -84,7 +91,5 @@ def run_game() -> GameState:
         if execution_failed:
             break
 
-    print("\nGame Over! survived for", state.day, "days.")
-
+    logger.info("Game Over! survived for %s days.", state.day)
     return state
-
