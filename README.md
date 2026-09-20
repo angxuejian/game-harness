@@ -4,11 +4,11 @@ A survival game built for LLMs to play, not humans. The gameplay is based on *60
 ## Game Rules
 
 1. No perfect ending. Just survive as long as you can.
-2. At the start of the game, the player picks 5 items from 10 items.
-3. HP: 100, Stamina: 100.
-4. Every day, the player loses HP from hunger and thirst.
-5. Every day, the player has 3 actions. Each action costs stamina.
-6. Every day, there is a random event.
+2. Player（LLM）
+3. At the start of the game, the player picks 5 items from 10 items.
+4. HP: 100, Stamina: 100.
+5. Every day, the player loses HP from hunger and thirst.
+6. Each action costs stamina. The player can explore to get resources and decide when to end the day.
 7. The player has 10 bag slots. 5 are for items, and 5 are for food and water.
 
 ## Chit-chat
